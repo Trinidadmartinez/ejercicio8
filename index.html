@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Vamos a buscar el CSS de Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+        <!-- Vamos a buscar las Fuentes de Google -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,500&family=Pirata+One&display=swap" rel="stylesheet" />
+        <!-- Complementemos Bootstrap y aprovechemos las Fuentes de Google -->
+        <style>
+            body {
+                font-family: "IBM Plex Sans", sans-serif;
+                font-weight: 400;
+                background: rgb(204, 204, 255);
+            }
+            h1 {
+                font-family: "Pirata One", cursive;
+                font-weight: 400;
+                font-size: calc(3rem + 1.5vw);
+                color:#112;
+                line-height: 1;
+            }
+            h2, h3, h4, h5, h6 {
+                font-weight: 600;
+            }
+            header {
+                background: url("img/cabecera.png") center bottom no-repeat;
+                background-size: cover;
+                padding: 15vh 0 0 0;
+            }
+
+            main p.lead {
+                text-align: justify;
+                letter-spacing: 0.025rem;
+                line-height: 1.6;
+            }
+
+            main p em {
+                font-weight: 500;
+            }
+
+            a {
+                color:#123;
+            }
+
+            a:hover {
+                color:#000;
+                text-decoration: none;
+                transition: all ease 0.5s;
+            }
+        </style>
+        <title>Exportación de cerveza en Chile</title>
+    </head>
+    <body>
+        <body>
+            <header class="container-fluid">
+                <div class="row py-5">
+                    <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h1 class="mb-3 mt-5 text-center">La cerveza chilena y su exportación mundial</h1>
+                        <h2 class="fs-6 mb-5 text-center text-uppercase">Por Eliana Jímenez, Gabriela Echeverría y Trinidad Martínez.</h2>
+                    </div>
+                </div>
+            </header>
+
+            <main class="container mb-5">
+                <div class="row g-3">
+                    <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 mx-auto">
+                        <p class="lead"> La exportación de la cerveza chilena a tenido un alza sostenida en los últimos años, esto constituye una clara tendencia de consumo en el extranjero de este producto. Esta exportación es principalmente por productores de tipo artesanal, por esta razón existen mas productores reconocidos por las características únicas como lo son los sabores propios y su cultura.</p>
+                
+                        <p>En chile existen aproximadamente 300 cerveceras artesanales, las cuales representan una variedad de alrededor de mil tipos de cervezas distintas. Este tipo de mercado crece entre un 20% a 30% cada año. Cada año las cervezas artesanales están siendo mas reconocidas en el exterior, esto se debe principalmente porque brindan estándares de calidad internacional e innovación..</p> 
+
+                        <p>La exportación de cerveza en el año 2018 creció en un 22% en comparación con el año 2017, llegando a los 902.390 litros exportados en el 2018 y con 738.735 litros en 2017. La forma principal de exportación es con contenedores mediante barco y avión. </p>
+
+                        <!-- Acá comienza la sección que contiene la primera secuencia -->
+                        <div class="row d-flex align-items-center my-5">
+                            <div class="col-md-6">
+                                <div id="primerCarrusel" c class="carousel slide carousel-fade shadow-sm" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="1000">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/imagen1_1.png" class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/imagen2_1.png" class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/imagen3_1.png" class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/imagen4_1.png" class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/imagen5_1.png" class="d-block w-100" alt="..." />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pt-3">
+                                <h5>Salida de Chile</h5>
+                                <p>Se realiza la carga de las cervezas en pack de 6,12 o 24 cervezas las cuales van dentro de cajas, las cuales se apilan y ingresan a contenedores y camiones especializados los que posteriormente llevaran el cargamento a los barcos.-</p>
+                            </div>
+                        </div>
+                        <!-- Acá termina tal sección -->
+
+                        <!-- Acá comienza la sección que contiene la segunda secuencia -->
+                        <div class="row d-flex align-items-center my-5">
+                            <div class="col-md-6 order-md-2">
+                                <div id="segundoCarrusel" c class="carousel slide carousel-fade shadow-sm" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="1000">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/imagen6_1.png" class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/imagen7_1.png" class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/imagen8_1.png" class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/imagen9_1.png" class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/imagen10_1.png" class="d-block w-100" alt="..." />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pt-3 order-md-1">
+                                <h5>Llegada internacional</h5>
+                                <p>Se envían a los países de destino, donde son recepcionadas, descargadas y movilizadas por los compradores mayoristas que luego las distribuirán a mercados del país de destino y finalmente al consumidor.</p>
+                            </div>
+                        </div>
+                        <!-- Acá termina tal sección -->
+
+                        <p> Los destinos que más exportaciones realizan de la cerveza chilena son <em>Argentina</em> abarcando un total de 71% de productos cerveceros, luego le sigue  <em>Colombia</em> con un 7% del total, ycon menor porcentaje están  <em>Paraguay, Brasil, Uruguay, EE;UU, Reino Unido, Perú, Españay Australia</em>.</p>
+                    </div>
+                    <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto">
+                        <!--esta imagen debe reemplazarse por un SVG-->
+                        <img src="img/mapa.svg" class="w-100 my-4 shadow-sm" />
+                    </div>
+                    <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 mx-auto">
+                        <p>Las cervezas chilenas se están empezando a dar conocer en el exterior, es por esto que varias compañías cerveceras en chile han tenido grandes reconocimientos en diferentes premiaciones internacionales.</p>
+
+                        <p>Una de las representantes de la cerveza chilena es la cervecera <em>Kross</em>, la cual es la más emblemática. Sus cervezas más representativas son <em>Kross 5, Golden y Maibock y 3 Gringos</em>. Luego esta la cervecera mas celebre, <em>la valdiviana Kuntsmann</em>, la cual ofrece cervezas pioneras tales como la <em>Torobayo y la Bock</em>, así como también las variedades de temporada como lo son las de <em>arándano y de chocolate</em>. Otra cerveza reconocida es <em>Guayacan</em>, ubicada en el valle de Elqui, la cual ofrece cervezas como <em>la Cerveza Chañar</em> elaborada con el fruto del mismo nombre, con <em>sabor acaramelado y complejo que le presta cualidad a la bebida</em>.
+                     </div>
+                </div>
+                <div class="row g-3 my-3">
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class=>
+                            <img src=/>
+                            <div class=>
+                                <h5 class=>
+                                <p class=>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class=>
+                            <img src= />
+                            <div class=>
+                                <h5 class>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 col-sm-3 col-lg-1">
+                        <div class=>
+                            <img src="img/cerveza1.png" class="card-img-top" />
+                            <div class="card-body">
+                                <h5 class="card-title fs-6">Kross</h5>
+                                <p class="card-text small">Emblemática</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 col-sm-3 col-lg-1">
+                         <div class=>
+                            <img src="img/cerveza2.png" class="card-img-top" />
+                            <div class="card-body">
+                                <h5 class="card-title fs-6">Kuntsmann</h5>
+                                <p class="card-text small">Pionera</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 col-sm-3 col-lg-1">
+                       <img src="img/cerveza3.png" class="card-img-top" />
+                            <div class="card-body">
+                                <h5 class="card-title fs-6">Guayacan</h5>
+                                <p class="card-text small">Frutal</p>
+                            </div>
+                        </div>
+                <div class="row g-3 my-3">
+                    <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 mx-auto">
+                        <p>Las cervezas chilenas están tomando mayor terreno dentro de las exportaciones, además de que en el exterior están siendo cada ves mas reconocidas por su calidad excepcional.</p>
+                        <img src="img/cierre4.svg" class="w-100 my-5">
+                    </div>
+            </main>
+            <footer class="container">
+                <div class="row mt-5 py-3">
+                    <div class="col-12">
+                        <p class="d-flex justify-content-between small p-1 m-0">
+                            <!--reemplaza el # que sigue con la URL de tu cuenta en GitHub-->
+                            <a href="https://github.com/Trinidadmartinez">Jímenez E. - Echeverría G. - Martínez T.</a>
+                            <a href="https://github.com/profesorfaco/dno075-2021-1/">Infografía Digital v2</a>
+                            <a href="https://github.com/profesorfaco/dno075-2021-1/tree/main/clase-06" class="d-none d-lg-inline">Lunes 3 de mayo, 2021</a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    </body>
+</html>
